@@ -67,6 +67,7 @@ ul {
 
 img{
     width: 100%;
+    
 }
 
 
@@ -219,6 +220,48 @@ MAIN
 }
 
 
+
+/* section strategic planning */
+
+/**************************************************/
+
+/* section testimonials section */
+
+
+.testimonials{
+    background-color: var(--logo-light);
+}
+
+.partners{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
+    padding5rem
+}
+
+.partners-card{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    background-color: var(--logo-bg-section);
+    gap: 2rem;
+    margin: 0.5rem;
+
+}
+
+.img-circle{
+    border-radius: 50%;
+}
+
+.comment-partners{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
 
 
 
