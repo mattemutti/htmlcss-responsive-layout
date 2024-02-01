@@ -7,6 +7,7 @@ RULE FOR ALL
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 
     border: 1px dashed black;
 
@@ -33,8 +34,8 @@ DEBUG
 
 .debug {}
 
-#site_footer,
-.debug {
+
+.debug #site_footer{
     background-color: var(--logo-bg-footer);
     height: 200px;
 }
@@ -322,10 +323,56 @@ MAIN
 
 /**************************************************/
 
-/* section  */
+/* section about */
 
 
+.about{
+    background-color: var(--logo-light);
+}
 
+
+.text-about{
+    color: var(--logo-bg-section);
+    font-size: 200%;
+}
+
+.about-card{
+    display: flex;
+    flex-direction: column;
+    padding: rem 0;
+
+}
+
+.pos-rel{
+    position: relative;
+}
+
+.marks{
+    color: var(--logo-bg-section);
+    font-size: 300%;
+    position: absolute;
+    left: 15%;
+}
+
+.img-about{
+    border-radius: 50%;
+    width: 20%;
+}
+
+.color-about{
+    color: var(--logo-bg-section);
+    padding: 1rem;
+}
+
+
+.btn-about{
+    text-decoration: none;
+    color: var(--logo-light);
+    padding: 0.4rem 0.5rem;
+    border-radius: 1.5rem   ;
+    background-color: var(--logo-bg-section);
+
+}
 
 
 
@@ -464,6 +511,14 @@ MEDIA QUERY FIRST MOBILE
     }
 
     /* #endregion Calc col medium */
+
+    .about-l {
+        padding: 2rem;
+    }
+
+    .about-r {
+        padding: 2rem;
+    }
 
 
 }
