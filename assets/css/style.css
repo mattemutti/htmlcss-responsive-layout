@@ -21,6 +21,7 @@ RULE FOR ALL
     --logo-light: white;
     --logo-txt-free: #fdc15fFF;
     --logo-bg-footer: #333333FF;
+    --logo-lighter: #ffffffFF;
 
 }
 
@@ -32,13 +33,6 @@ body {}
 DEBUG
 ************************************************/
 
-.debug {}
-
-
-.debug #site_footer{
-    background-color: var(--logo-bg-footer);
-    height: 200px;
-}
 
 
 /***********************************************
@@ -300,21 +294,21 @@ MAIN
     gap: 1rem;
 }
 
-.n-benefit{
+.n-benefit {
     color: var(--logo-bg-section);
     font-size: 400%;
 }
 
-.tit-benefit{
+.tit-benefit {
     color: var(--logo-bg-section);
 
 }
 
-.btn-more{
+.btn-more {
     text-decoration: none;
     color: var(--logo-light);
     padding: 0.5rem 2rem;
-    border-radius: 1.5rem   ;
+    border-radius: 1.5rem;
     background-color: var(--logo-bg-section);
 }
 
@@ -326,54 +320,96 @@ MAIN
 /* section about */
 
 
-.about{
+.about {
     background-color: var(--logo-light);
+    margin: 3rem 0;
 }
 
 
-.text-about{
+.text-about {
     color: var(--logo-bg-section);
     font-size: 200%;
 }
 
-.about-card{
+.about-card {
     display: flex;
     flex-direction: column;
     padding: rem 0;
 
 }
 
-.pos-rel{
+.pos-rel {
     position: relative;
 }
 
-.marks{
+.marks {
     color: var(--logo-bg-section);
     font-size: 300%;
     position: absolute;
     left: 15%;
 }
 
-.img-about{
+.img-about {
     border-radius: 50%;
     width: 20%;
 }
 
-.color-about{
+.color-about {
     color: var(--logo-bg-section);
     padding: 1rem;
 }
 
 
-.btn-about{
+.btn-about {
     text-decoration: none;
     color: var(--logo-light);
     padding: 0.4rem 0.5rem;
-    border-radius: 1.5rem   ;
+    border-radius: 1.5rem;
     background-color: var(--logo-bg-section);
 
 }
 
+
+/* section about */
+
+/**************************************************/
+
+/* section get started */
+
+
+.started{
+    background-color: var(--logo-bg-section);
+    color: var(--logo-light);
+}
+
+.box-started {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.title-free {
+    color: var(--logo-txt-free);
+    font-size: 500%;
+    
+}
+
+
+.btn-free{
+
+    text-decoration: none;
+    color: var(--logo-bg-section);
+    padding: 0.4rem 0.5rem;
+    border-radius: 1.5rem;
+    background-color: var(--logo-lighter);
+}
+
+.policy-link{
+    color: var(--logo-light);
+}
 
 
 
@@ -384,7 +420,9 @@ MAIN
 FOOTER
 ************************************************/
 
-#site_footer {}
+#site_footer {
+    background-color: var(--logo-bg-footer);
+}
 
 
 
