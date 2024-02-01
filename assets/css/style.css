@@ -244,8 +244,9 @@ MAIN
 
 .partners-card{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 1.5rem;
     background-color: var(--logo-bg-section);
     gap: 2rem;
@@ -338,6 +339,10 @@ MEDIA QUERY FIRST MOBILE
 
     /* #endregion Calc col small */
 
+
+    .partners-card{
+        flex-direction: row;
+    }
 
 }
 
