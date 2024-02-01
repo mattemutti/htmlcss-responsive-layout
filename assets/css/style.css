@@ -60,6 +60,10 @@ ul {
     list-style: none;
 }
 
+img{
+    width: 100%;
+}
+
 
 /* #region CALC COL/12*************************** */
 
@@ -143,6 +147,39 @@ MAIN
 ************************************************/
 
 #site_main {}
+
+
+/* section demo application */
+
+
+.demo-app{
+    background-color: var(--logo-secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+    
+
+
+}
+
+.demo-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--logo-secondary);
+    text-align: center;
+    align-items: center;
+    border-radius: 1.5rem;
+      
+
+}
+
+.margin-card{
+    background-color: var(--logo-light);
+    padding: 0.5rem;
+}
 
 
 
@@ -341,6 +378,11 @@ MEDIA QUERY FIRST MOBILE
     .header-r-menu {
         display: flex;
         gap: 1rem;
+        color: var(--logo-light);
+    }
+
+    .demo-app{
+        flex-direction: row;
     }
 
 
