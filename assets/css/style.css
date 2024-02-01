@@ -389,6 +389,7 @@ MAIN
     align-items: center;
     gap: 1rem;
     margin: 2rem 0;
+    
 }
 
 .title-free {
@@ -422,6 +423,7 @@ FOOTER
 
 #site_footer {
     background-color: var(--logo-bg-footer);
+    color: var(--logo-light);
 }
 
 
