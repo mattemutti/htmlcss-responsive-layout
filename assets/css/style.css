@@ -28,10 +28,15 @@ body {}
 
 
 /***********************************************
-DEBUGT
+DEBUG
 ************************************************/
 
 .debug {}
+
+#site_footer, .debug{
+    background-color: var(--logo-bg-footer);
+    height: 200px;
+}
 
 
 /***********************************************
@@ -159,8 +164,6 @@ MAIN
     justify-content: center;
     align-items: center;
     border-radius: 1.5rem;
-    
-
 
 }
 
@@ -172,7 +175,6 @@ MAIN
     text-align: center;
     align-items: center;
     border-radius: 1.5rem;
-      
 
 }
 
@@ -181,13 +183,55 @@ MAIN
     padding: 0.5rem;
 }
 
+/* section demo application */
+
+/**************************************************/
+
+/* section strategic planning */
+
+
+.strategic{
+    background-color: var(--logo-bg-section);
+}
+
+.strategic-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--logo-light);
+    text-align: center;
+    align-items: center;
+    border-radius: 1.5rem;
+
+}
+
+.text-strategic{
+    color: var(--logo-light);
+}
+
+.btn-strategic{
+    background-color: var(--logo-bg-section);
+    border-radius: 100%;
+}
+
+.icon-arrow{
+    font-size: 200%;
+}
+
+
+
+
+
+
 
 
 /***********************************************
 FOOTER
 ************************************************/
 
-#site_footer {}
+#site_footer {
+   
+}
 
 
 
@@ -370,7 +414,8 @@ MEDIA QUERY FIRST MOBILE
     }
 
     /* #endregion Calc col large */
-
+    
+    /************** header *********************/
     .menu {
         display: none;
     }
@@ -385,6 +430,14 @@ MEDIA QUERY FIRST MOBILE
         flex-direction: row;
     }
 
+    /************* strategic section ************/
 
+    .strategic-l{
+        padding: 3rem;
+    }
+
+    .strategic-r{
+        padding: 3rem;
+    }
 
 }
