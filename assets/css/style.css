@@ -559,7 +559,7 @@ MAIN
 
     text-decoration: none;
     color: var(--logo-bg-section);
-    padding: 2rem 5rem;
+    padding: 1.2rem 5rem;
     border-radius: 5rem;
     background-color: var(--logo-lighter);
     border: none;
