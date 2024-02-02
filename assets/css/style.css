@@ -347,6 +347,7 @@ MAIN
     background-color: var(--logo-bg-section);
     gap: 2rem;
     margin: 0.5rem;
+    text-align: center;
 
 }
 
@@ -598,6 +599,7 @@ MEDIA QUERY FIRST MOBILE
 
     .partners-card {
         flex-direction: row;
+        text-align: left;
     }
 
 }
