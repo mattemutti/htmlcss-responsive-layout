@@ -38,7 +38,7 @@ UTILITIES
 ************************************************/
 
 .container {
-    width: 90%;
+    width: 88%;
     max-width: 1176px;
     margin: auto
 }
@@ -382,6 +382,8 @@ MAIN
 .title-benefits {
     text-align: center;
     color: var(--logo-light);
+    font-size: 250%;
+    padding: 3rem 0;
 }
 
 .benefit-card {
@@ -749,6 +751,7 @@ MEDIA QUERY FIRST MOBILE
     }
     .box-demo-card{
         align-items: flex-start;
+        align-self: baseline;
     }
 
     .img-app{
