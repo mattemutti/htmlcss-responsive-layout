@@ -9,8 +9,6 @@ RULE FOR ALL
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 
-    border: 1px dashed black;
-
 }
 
 :root {
@@ -133,13 +131,20 @@ HEADER
 .menu {
     color: var(--logo-light);
     text-decoration: none;
+    font-size: 200%;
 }
 
 .header-r-menu {
 
     display: none;
+}
 
+.btn-header{
 
+    padding: 0.4rem 0.5rem;
+    background-color: var(--logo-lighter);
+    color: var(--logo-bg-footer);
+    border-radius: 1.5rem;
 }
 
 
@@ -627,6 +632,7 @@ MEDIA QUERY FIRST MOBILE
 
     .header-r-menu {
         display: flex;
+        align-items: center;
         gap: 1rem;
         color: var(--logo-light);
     }
