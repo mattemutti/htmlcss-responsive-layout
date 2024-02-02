@@ -38,7 +38,7 @@ UTILITIES
 ************************************************/
 
 .container {
-    width: 80%;
+    width: 90%;
     max-width: 1176px;
     margin: auto
 }
@@ -139,7 +139,7 @@ HEADER
     display: none;
 }
 
-.btn-header{
+.btn-header {
 
     padding: 0.4rem 0.5rem;
     background-color: var(--logo-lighter);
@@ -153,19 +153,29 @@ HEADER
 MAIN
 ************************************************/
 
+
+
 #site_main {}
+
 
 
 /* section demo application */
 
+.demo{
+    margin: 3rem 0;
+}
+
 
 .demo-app {
+    width: 100%;
     background-color: var(--logo-secondary);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 1.5rem;
+    gap: 2rem;
+    box-shadow: 0px 1px 5px #657889;
 
 }
 
@@ -177,13 +187,63 @@ MAIN
     text-align: center;
     align-items: center;
     border-radius: 1.5rem;
+    padding: 2rem;
+    height: 100%;
+    gap: 1rem;
+    box-shadow: 0px 1px 5px #657889;
 
 }
 
 .margin-card {
+    
     background-color: var(--logo-light);
     padding: 0.5rem;
+    
 }
+
+.text-app {
+    color: var(--logo-title-card);
+}
+
+.btn-app-store {
+
+    color: var(--logo-lighter);
+    background-color: var(--logo-title-card);
+    border-radius: 1.5rem;
+    text-decoration: none;
+    padding: 0.6rem 2rem;
+
+}
+
+.box-demo-card {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+
+}
+
+.link-center {
+    display: flex;
+    justify-content: center;
+}
+
+.img-app {
+    margin-bottom: -0.3rem;
+
+}
+
+.icon-demo{
+    font-size: 600%;
+    color: var(--logo-title-card);
+}
+
+.title-demo-card{
+    color: var(--logo-title-card);
+    font-size: 150%;
+
+}
+
 
 /* section demo application */
 
@@ -219,6 +279,8 @@ MAIN
 .icon-arrow {
     font-size: 200%;
 }
+
+
 
 
 
@@ -382,7 +444,7 @@ MAIN
 /* section get started */
 
 
-.started{
+.started {
     background-color: var(--logo-bg-section);
     color: var(--logo-light);
 }
@@ -394,17 +456,17 @@ MAIN
     align-items: center;
     gap: 1rem;
     margin: 2rem 0;
-    
+
 }
 
 .title-free {
     color: var(--logo-txt-free);
     font-size: 500%;
-    
+
 }
 
 
-.btn-free{
+.btn-free {
 
     text-decoration: none;
     color: var(--logo-bg-section);
@@ -413,7 +475,7 @@ MAIN
     background-color: var(--logo-lighter);
 }
 
-.policy-link{
+.policy-link {
     color: var(--logo-light);
 }
 
@@ -563,6 +625,11 @@ MEDIA QUERY FIRST MOBILE
 
     .about-r {
         padding: 2rem;
+    }
+
+    .demo-app {
+        align-items: flex-start;
+        padding-left: 3rem;
     }
 
 
