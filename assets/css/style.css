@@ -64,14 +64,31 @@ img {
 
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
 .color-title {
     color: var(--logo-bg-section);
-    padding: 1rem;
+    padding: 1rem 0;
 }
+
+p{
+    line-height: 2rem;
+}
+
+.plr-1{
+    padding: 0 1.5rem;
+}
+
+.ptb-2 {
+    padding: 2rem 0;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
 
 
 /* #region CALC COL/12*************************** */
@@ -156,9 +173,6 @@ HEADER
     border-radius: 1.5rem;
 }
 
-.ptb-2{
-    padding: 2rem 0;
-}
 
 
 /***********************************************
@@ -173,8 +187,8 @@ MAIN
 
 /* section demo application */
 
-.demo{
-    margin: 3rem 0;
+.demo {
+    margin: 5rem 0;
 }
 
 
@@ -207,17 +221,16 @@ MAIN
 }
 
 .margin-card {
-    
     background-color: var(--logo-light);
     padding: 0.5rem;
-    
+
 }
 
 .text-app {
     color: var(--logo-title-card);
     font-size: 150%;
     padding-top: 2rem;
-    
+
 }
 
 .btn-app-store {
@@ -227,6 +240,8 @@ MAIN
     border-radius: 1.5rem;
     text-decoration: none;
     padding: 0.6rem 5rem;
+    word-spacing: 0.25rem;
+   
 
 }
 
@@ -234,7 +249,7 @@ MAIN
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 1rem;
+    padding: 2rem;
 
 }
 
@@ -246,18 +261,19 @@ MAIN
 .img-app {
     margin-bottom: -0.25rem;
     width: 80%;
-    
+
 
 }
 
-.icon-demo{
+.icon-demo {
     font-size: 600%;
     color: var(--logo-title-card);
 }
 
-.title-demo-card{
+.title-demo-card {
     color: var(--logo-title-card);
     font-size: 150%;
+    padding-bottom: 2rem;
 
 }
 
@@ -300,21 +316,27 @@ MAIN
 
 .icon-arrow {
 
-    font-size: 200%;
+    font-size: 100%;
 }
 
 
-.title-strategic{
-    font-size: 300%;
+.title-strategic {
+    font-size: 250%;
     padding: 2rem 0;
 }
 
-.title-develop{
+.title-develop {
     font-size: 150%;
+    
 }
 
+.strategic-l{
+    padding: 1rem;
+}
 
-
+.strategic-r{
+    padding: 1rem;
+}
 
 /* section strategic planning */
 
@@ -325,7 +347,8 @@ MAIN
 
 .testimonials {
     background-color: var(--logo-light);
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
+    
 }
 
 .partners {
@@ -335,7 +358,8 @@ MAIN
     align-items: center;
     gap: 1rem;
     margin: 2rem 0;
-    padding5rem
+    text-align: center;
+    padding: 2rem;
 }
 
 .partners-card {
@@ -346,7 +370,7 @@ MAIN
     border-radius: 1.5rem;
     background-color: var(--logo-bg-section);
     gap: 2rem;
-    margin: 0.5rem;
+    margin: 1rem;
     text-align: center;
 
 }
@@ -365,7 +389,7 @@ MAIN
     color: var(--logo-light);
 }
 
-.mark-partn{
+.mark-partn {
     font-size: 150%;
 }
 
@@ -378,24 +402,26 @@ MAIN
 
 .benefit {
     background-color: var(--logo-bg-section);
+    padding: 1rem;
 }
 
 .title-benefits {
     text-align: center;
     color: var(--logo-light);
-    font-size: 250%;
-    padding: 3rem 0;
+    font-size: 140%;
+    padding: 4rem 0;ß
 }
 
 .benefit-card {
 
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 3rem 1.5rem;
     border-radius: 1.5rem;
     background-color: var(--logo-light);
-    gap: 1rem;
+    gap: 2rem;
     margin: 0.5rem;
+    box-shadow: 2px 3px 5px #657889;
 
 }
 
@@ -412,15 +438,17 @@ MAIN
 
 .tit-benefit {
     color: var(--logo-bg-section);
+    font-size: 150%;
 
 }
 
 .btn-more {
     text-decoration: none;
     color: var(--logo-light);
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 2.5rem;
     border-radius: 1.5rem;
     background-color: var(--logo-bg-section);
+    box-shadow: 2px 3px 5px #a705cf67;
 }
 
 
@@ -433,7 +461,8 @@ MAIN
 
 .about {
     background-color: var(--logo-light);
-    margin: 3rem 0;
+    margin: 4rem 2rem;
+    margin-bottom: 5rem;
 }
 
 
@@ -457,14 +486,19 @@ MAIN
     color: var(--logo-bg-section);
     font-size: 300%;
     position: absolute;
-    left: 15%;
+    left: 30%;
 }
 
 .img-about {
     border-radius: 50%;
-    width: 20%;
+    width: 40%;
 }
 
+.color-title-about{
+    color: var(--logo-bg-section);
+    padding-bottom: 3rem;
+    font-size: 180%;
+}
 
 
 
@@ -751,19 +785,20 @@ MEDIA QUERY FIRST MOBILE
         height: 100%;
         align-items: flex-end;
     }
-    .box-demo-card{
+
+    .box-demo-card {
         align-items: flex-start;
         align-self: baseline;
     }
 
-    .img-app{
-        
+    .img-app {
+
         width: 60%;
     }
 
-  
 
-   
+
+
 
     /************* strategic section ************/
 
@@ -771,7 +806,7 @@ MEDIA QUERY FIRST MOBILE
         padding-top: 3rem;
         padding-left: 12rem;
         padding-right: 1rem;
-        
+
     }
 
     .strategic-r {
@@ -780,7 +815,7 @@ MEDIA QUERY FIRST MOBILE
         padding-left: 1rem;
     }
 
-    .img-lg-small{
+    .img-lg-small {
         width: 60%;
     }
 
