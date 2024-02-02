@@ -7,7 +7,7 @@ RULE FOR ALL
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 
 }
 
@@ -147,6 +147,9 @@ HEADER
     border-radius: 1.5rem;
 }
 
+.ptb-2{
+    padding: 2rem 0;
+}
 
 
 /***********************************************
@@ -203,6 +206,9 @@ MAIN
 
 .text-app {
     color: var(--logo-title-card);
+    font-size: 150%;
+    padding-top: 2rem;
+    
 }
 
 .btn-app-store {
@@ -211,7 +217,7 @@ MAIN
     background-color: var(--logo-title-card);
     border-radius: 1.5rem;
     text-decoration: none;
-    padding: 0.6rem 2rem;
+    padding: 0.6rem 5rem;
 
 }
 
@@ -229,7 +235,9 @@ MAIN
 }
 
 .img-app {
-    margin-bottom: -0.3rem;
+    margin-bottom: -0.25rem;
+    width: 80%;
+    
 
 }
 
@@ -254,6 +262,7 @@ MAIN
 
 .strategic {
     background-color: var(--logo-bg-section);
+    padding: 4rem 0;
 }
 
 .strategic-card {
@@ -280,6 +289,11 @@ MAIN
     font-size: 200%;
 }
 
+
+.title-strategic{
+    font-size: 300%;
+    padding: 3rem 0;
+}
 
 
 
@@ -565,7 +579,7 @@ MEDIA QUERY FIRST MOBILE
 
 /* ------MEDIUM-----------------------------*/
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
 
     /* #region Calc col medium */
 
@@ -629,7 +643,7 @@ MEDIA QUERY FIRST MOBILE
 
     .demo-app {
         align-items: flex-start;
-        padding-left: 3rem;
+        padding-left: 2rem;
     }
 
 
@@ -638,7 +652,7 @@ MEDIA QUERY FIRST MOBILE
 
 /* ------LARGE-----------------------------*/
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
 
     /* #region Calc col large */
 
@@ -706,7 +720,21 @@ MEDIA QUERY FIRST MOBILE
 
     .demo-app {
         flex-direction: row;
+        height: 100%;
+        align-items: flex-end;
     }
+    .box-demo-card{
+        align-items: flex-start;
+    }
+
+    .img-app{
+        
+        width: 60%;
+    }
+
+  
+
+   
 
     /************* strategic section ************/
 
