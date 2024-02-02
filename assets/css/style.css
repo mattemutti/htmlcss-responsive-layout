@@ -64,6 +64,15 @@ img {
 
 }
 
+.text-center{
+    text-align: center;
+}
+
+.color-title {
+    color: var(--logo-bg-section);
+    padding: 1rem;
+}
+
 
 /* #region CALC COL/12*************************** */
 
@@ -316,6 +325,7 @@ MAIN
 
 .testimonials {
     background-color: var(--logo-light);
+    padding-bottom: 3rem;
 }
 
 .partners {
@@ -341,6 +351,9 @@ MAIN
 }
 
 .img-circle {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
     border-radius: 50%;
 }
 
@@ -348,6 +361,11 @@ MAIN
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    color: var(--logo-light);
+}
+
+.mark-partn{
+    font-size: 150%;
 }
 
 
@@ -444,10 +462,7 @@ MAIN
     width: 20%;
 }
 
-.color-about {
-    color: var(--logo-bg-section);
-    padding: 1rem;
-}
+
 
 
 .btn-about {
