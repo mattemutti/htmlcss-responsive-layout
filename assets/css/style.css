@@ -91,6 +91,8 @@ p{
 
 
 
+
+
 /* #region CALC COL/12*************************** */
 
 .col-1 {
@@ -522,6 +524,7 @@ MAIN
 .started {
     background-color: var(--logo-bg-section);
     color: var(--logo-light);
+    padding: 3rem 2rem;
 }
 
 .box-started {
@@ -529,7 +532,7 @@ MAIN
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
     margin: 2rem 0;
 
 }
@@ -540,14 +543,33 @@ MAIN
 
 }
 
+.get-started{
+    font-size: 120%;
+    color: var(--logo-lighter);
+    opacity: 60%;
+}
+
+.text-tit-get{
+    font-size: 250%;
+    text-align: center;
+}
+
 
 .btn-free {
 
     text-decoration: none;
     color: var(--logo-bg-section);
-    padding: 0.4rem 0.5rem;
-    border-radius: 1.5rem;
+    padding: 2rem 5rem;
+    border-radius: 5rem;
     background-color: var(--logo-lighter);
+    border: none;
+}
+
+.no-link{
+    text-decoration: none;
+    font-size: 180%;
+    color: var(--logo-bg-section);
+    word-spacing: 0.5rem;
 }
 
 .policy-link {
